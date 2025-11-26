@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>한국어 책과 함께 읽는 청소년 영어원서</title>
+  <meta name="description" content="한국어 원서와 함께 읽기 좋은 청소년 영어 원서 추천 큐레이션" />
+  <style>
+    :root{
+      --bg:#f7f7fb;
+      --card:#ffffff;
+      --muted:#555;
+      --accent:#2563eb;
+      --maxw:1200px;
+      --radius:10px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans KR", "Apple SD Gothic Neo", "맑은 고딕", Arial, sans-serif;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      background:var(--bg);
+      color:#0f172a;
+      line-height:1.5;
+    }
+    .wrap{
+      max-width:var(--maxw);
+      margin:32px auto;
+      padding:24px;
+    }
+    header.site{
+      text-align:center;
+      margin-bottom:32px;
+    }
+    header h1{
+      font-size:28px;
+      margin:0;
+    }
+    header p.lead{
+      margin:8px 0 0;
+      color:var(--muted);
+      font-size:16px;
+    }
+
+    .grid{
+      display:grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap:24px;
+      justify-content: center;
+    }
+    .card{
+      background:var(--card);
+      border-radius:var(--radius);
+      overflow:hidden;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      display:flex;
+      flex-direction:column;
+      transition: transform .15s ease, box-shadow .15s ease;
+    }
+    .card:hover{
+      transform: translateY(-4px);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+    }
+    .cover{
+      width:100%;
+      height:auto;
+      aspect-ratio: 2/3;
+      background:#eee;
+      object-fit: cover;
+    }
+    .body{
+      padding:12px;
+      display:flex;
+      flex-direction:column;
+      gap:6px;
+      flex:1;
+    }
+    .title{
+      font-weight:700;
+      font-size:16px;
+      margin:0;
+    }
+    .subtitle {
+      font-size:14px;
+      color:var(--muted);
+      margin:0;
+    }
+    .meta{
+      font-size:13px;
+      color:var(--muted);
+    }
+    .desc{
+      font-size:14px;
+      color:#111;
+      flex:1;
+      margin-top:4px;
+    }
+    .actions{
+      margin-top:8px;
+      display:flex;
+      gap:8px;
+    }
+    .btn{
+      padding:6px 10px;
+      border-radius:6px;
+      text-decoration:none;
+      font-size:14px;
+      font-weight:600;
+      cursor:pointer;
+    }
+    .btn-primary{
+      background:var(--accent);
+      color:#fff;
+    }
+    .btn-ghost{
+      background:transparent;
+      border:1px solid #ccc;
+      color:var(--muted);
+    }
+    .note{
+      margin-top:32px;
+      font-size:13px;
+      color:var(--muted);
+    }
+
+    @media (max-width:600px){
+      header h1 { font-size:24px; }
+      .grid { gap:16px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header class="site">
+      <h1>한국어 책과 함께 읽는 청소년 영어원서</h1>
+      <p class="lead">한국어 원서와 함께, 부담 없이 읽을 수 있는 청소년 영어 소설 추천 📚</p>
+    </header>
+
+    <section class="grid">
+      <!-- 1 -->
+      <article class="card">
+        <img class="cover" src="https://covers.openlibrary.org/b/isbn/9781846275975-L.jpg" alt="Human Acts cover" />
+        <div class="body">
+          <h2 class="title">Human Acts</h2>
+          <p class="subtitle">Han Kang — 소년이 온다</p>
+          <p class="desc">노벨문학상 수상자 한강의 대표작 중 하나로, 5.18 사건에 대해 이해하고 공감할 수 있음.</p>
+        </div>
+      </article>
+
+      <!-- 2 -->
+      <article class="card">
+        <img class="cover" src="https://covers.openlibrary.org/b/isbn/9781984896391-L.jpg" alt="A Good Girl's Guide to Murder cover" />
+        <div class="body">
+          <h2 class="title">A Good Girl's Guide to Murder</h2>
+          <p class="subtitle">Holly Jackson — 핍의 살인사건 안내서</p>
+          <p class="desc">영 어덜트 미스터리 소설. 넷플릭스에서 드라마로 영상화된 바 있어, 몰입하기 좋음.</p>
+        </div>
+      </article>
+
+      <!-- 3 -->
+      <article class="card">
+        <img class="cover" src="https://covers.openlibrary.org/b/isbn/9780062073488-L.jpg" alt="And Then There Were None cover" />
+        <div class="body">
+          <h2 class="title">And Then There Were None</h2>
+          <p class="subtitle">Agatha Christie — 그리고 아무도 없었다.</p>
+          <p class="desc">전설적인 추리소설 작가 아가사 크리스티의 히트작. 짧고 흥미진진해서 몰입하여 읽기 좋음.</p>
+        </div>
+      </article>
+
+      <!-- 4 -->
+      <article class="card">
+        <img class="cover" src="https://covers.openlibrary.org/b/isbn/9781529157468-L.jpg" alt="Project Hail Mary cover" />
+        <div class="body">
+          <h2 class="title">Project Hail Mary</h2>
+          <p class="subtitle">Andy Weir — 프로젝트 헤일메리</p>
+          <p class="desc">『마션』의 작가 앤디 위어 신작. 현재 영상화 중이며, 흥미진진한 SF 소설.</p>
+        </div>
+      </article>
+
+      <!-- 5 -->
+      <article class="card">
+        <img class="cover" src="https://covers.openlibrary.org/b/isbn/9780062961389-L.jpg" alt="almond cover" />
+        <div class="body">
+          <h2 class="title">almond</h2>
+          <p class="subtitle">Sohn, Won-Pyung — 아몬드</p>
+          <p class="desc">한국 청소년 소설 『아몬드』의 영어판. 친숙하게 접근할 수 있어 영어 원서 입문에 적합.</p>
+        </div>
+      </article>
+
+      <!-- 6 -->
+      <article class="card">
+        <img class="cover" src="https://covers.openlibrary.org/b/isbn/9780062976581-L.jpg" alt="The Boy, the Mole, the Fox and the Horse cover" />
+        <div class="body">
+          <h2 class="title">The Boy, the Mole, the Fox and the Horse</h2>
+          <p class="subtitle">Charlie Mackesy — 소년과 두더지와 영어와 말</p>
+          <p class="desc">감성적이고 동화 같은 구조로 이해하기 쉬운 이야기.</p>
+        </div>
+      </article>
+
+      <!-- 7 -->
+      <article class="card">
+        <img class="cover" src="https://covers.openlibrary.org/b/isbn/9781419741203-L.jpg" alt="Little Women cover" />
+        <div class="body">
+          <h2 class="title">Little Women</h2>
+          <p class="subtitle">Louisa Alcott — 작은 아씨들</p>
+          <p class="desc">고전 명작. 원서 독해가 어렵지 않으면서 영화 등으로도 친숙하게 접근할 수 있는 작품.</p>
+        </div>
+      </article>
+
+      <!-- 8 -->
+      <article class="card">
+        <img class="cover" src="https://covers.openlibrary.org/b/isbn/9781529925654-L.jpg" alt="Marigold Mind Laundry cover" />
+        <div class="body">
+          <h2 class="title">Marigold Mind Laundry</h2>
+          <p class="subtitle">Jungeun Yun — 메리골드 마음 세탁소</p>
+          <p class="desc">한국 베스트 소설 원작. 따뜻하고 이해하기 쉬운 이야기로, 영어 원서 입문에 적합.</p>
+        </div>
+      </article>
+
+      <!-- 9 -->
+      <article class="card">
+        <img class="cover" src="https://covers.openlibrary.org/b/isbn/9781786894243-L.jpg" alt="Life Of Pi cover" />
+        <div class="body">
+          <h2 class="title">Life Of Pi</h2>
+          <p class="subtitle">Yann Martel — 라이프 오브 파이</p>
+          <p class="desc">동명의 영화가 유명해, 소설을 통해 더 구체적으로 상상하며 몰입할 수 있음.</p>
+        </div>
+      </article>
+
+      <!-- 10 -->
+      <article class="card">
+        <img class="cover" src="https://covers.openlibrary.org/b/isbn/9780241734186-L.jpg" alt="Anne of Green Gables cover" />
+      <div class="body">
+          <h2 class="title">Anne of Green Gables</h2>
+          <p class="subtitle">L. M. Montgomery — 빨간머리 앤</p>
+          <p class="desc">고전이자 꾸준히 재생산되는 작품. 일상 표현과 감성적 표현들을 익히기에 좋음.</p>
+        </div>
+      </article>
+
+      <!-- 11 -->
+      <article class="card">
+        <img class="cover" src="https://covers.openlibrary.org/b/isbn/9781476738024-L.jpg" alt="A Man Called Ove cover" />
+        <div class="body">
+          <h2 class="title">A Man Called Ove</h2>
+          <p class="subtitle">Fredrik Backman — 오베라는 남자</p>
+          <p class="desc">따뜻하면서도 현실적인 소설. 유쾌하고 읽기 가볍고, 동명 영화도 있음.</p>
+        </div>
+      </article>
+
+      <!-- 12 -->
+      <article class="card">
+        <img class="cover" src="https://covers.openlibrary.org/b/isbn/9781529954265-L.jpg" alt="Pride & Prejudice cover" />
+        <div class="body">
+          <h2 class="title">Pride & Prejudice</h2>
+          <p class="subtitle">Jane Austen — 오만과 편견</p>
+          <p class="desc">고전 명작 로맨스. 다소 고전 표현이 있을 수 있지만, 원서 입문으로 좋은 선택.</p>
+        </div>
+      </article>
+
+      <!-- 13 -->
+      <article class="card">
+        <img class="cover" src="https://covers.openlibrary.org/b/isbn/9781035032891-L.jpg" alt="The Second Chance Convenience Store cover" />
+        <div class="body">
+          <h2 class="title">The Second Chance Convenience Store</h2>
+          <p class="subtitle">Kim Ho-Yeon — 불편한 편의점</p>
+          <p class="desc">따뜻하고 감동적인 이야기로, 한국 소설 원작이라 보다 친숙하게 접근 가능.</p>
+        </div>
+      </article>
+
+      <!-- 14 -->
+      <article class="card">
+        <img class="cover" src="https://covers.openlibrary.org/b/isbn/9781035428045-L.jpg" alt="The Wizard's Bakery cover" />
+        <div class="body">
+          <h2 class="title">The Wizard's Bakery</h2>
+          <p class="subtitle">Gu Byeong-mo — 위저드 베이커리</p>
+          <p class="desc">청소년 베스트셀러의 영어판. 환상적인 이야기로 몰입하기 좋음.</p>
+        </div>
+      </article>
+
+      <!-- 15 -->
+      <article class="card">
+        <img class="cover" src="https://covers.openlibrary.org/b/isbn/9781035412761-L.jpg" alt="DallerGut Dream Department Store cover" />
+        <div class="body">
+          <h2 class="title">DallerGut Dream Department Store</h2>
+          <p class="subtitle">Lee Mye-ye — 달러구트 꿈백화점</p>
+          <p class="desc">이해하기 쉽고 재미있는 판타지 소설의 영어판. 이야기 자체가 흥미로움.</p>
+        </div>
+      </article>
+    </section>
+
+    <div class="note">
+      <p>📌 표지 이미지가 없는 책은 직접 커버 이미지를 구해 <code>&lt;img src="…" /&gt;</code> 값을 교체해 주세요.  
+      도서관 내부 OPAC 링크나 신청 링크가 있다면, 각 카드에 버튼 형태로 추가하시면 더 좋습니다. </p>
+    </div>
+  </main>
+</body>
+</html>
